@@ -4,7 +4,7 @@ import desk from "../assets/desk.json";
 import Lottie from 'lottie-react';
 import SocialRow from '../components/SocialRow';
 import { FaGithub, FaLinkedin, FaEnvelope, FaGitlab, FaFacebook, FaMedium, FaStackOverflow } from 'react-icons/fa';
-import Education from '../pages/Education';
+import Education from './Education';
 
 const Hero = ({Mode}) => {
      const socials = [
@@ -59,7 +59,7 @@ const Hero = ({Mode}) => {
     </div>
     <div className=" ml-10 mt-5  flex justigy-center snm:justify-normal gap-10 ">
         <button className={`${Mode ? "text-white" : "text-white"} bg-[#55198c] hover:bg-white hover:text-[#55198c] rounded-md p-2 transform transition duration-300 hover:-translate-y-1 hover:border-[#55198c] hover:border-[1px] hover:shadow-lg`}>Contact me</button>
-        <a href='/Resume.pdf' download className={`${Mode ? "text-white" : "text-white"} bg-[#55198c] hover:bg-white hover:text-[#55198c]  rounded-md p-2 transform transition duration-300 hover:-translate-y-1 hover:shadow-lg hover:border-[#55198c] hover:border-[1px]`}>Download MY Resume</a> </div> 
+        <a href='/Karan-Developer.pdf' download className={`${Mode ? "text-white" : "text-white"} bg-[#55198c] hover:bg-white hover:text-[#55198c]  rounded-md p-2 transform transition duration-300 hover:-translate-y-1 hover:shadow-lg hover:border-[#55198c] hover:border-[1px]`}>Download MY Resume</a> </div> 
          
     </>
   )
