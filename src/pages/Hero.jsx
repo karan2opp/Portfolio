@@ -5,6 +5,7 @@ import Lottie from 'lottie-react';
 import SocialRow from '../components/SocialRow';
 import { FaGithub, FaLinkedin, FaEnvelope, FaGitlab, FaFacebook, FaMedium, FaStackOverflow } from 'react-icons/fa';
 import Education from './Education';
+import { Link } from 'react-scroll';
 
 const Hero = ({Mode}) => {
      const socials = [
@@ -58,7 +59,12 @@ const Hero = ({Mode}) => {
         <SocialRow  data={socials}/>
     </div>
     <div className=" ml-10 mt-5  flex justigy-center snm:justify-normal gap-10 ">
-        <button className={`${Mode ? "text-white" : "text-white"} bg-[#55198c] hover:bg-white hover:text-[#55198c] rounded-md p-2 transform transition duration-300 hover:-translate-y-1 hover:border-[#55198c] hover:border-[1px] hover:shadow-lg`}>Contact me</button>
+     <Link
+  to="Contact-me"
+  smooth={true}
+  duration={500}
+  
+> <button  className={`${Mode ? "text-white" : "text-white"} bg-[#55198c] hover:bg-white hover:text-[#55198c] rounded-md p-2 transform transition duration-300 hover:-translate-y-1 hover:border-[#55198c] hover:border-[1px] hover:shadow-lg`}>Contact me</button> </Link>  
         <a href='/Karan-Developer.pdf' download className={`${Mode ? "text-white" : "text-white"} bg-[#55198c] hover:bg-white hover:text-[#55198c]  rounded-md p-2 transform transition duration-300 hover:-translate-y-1 hover:shadow-lg hover:border-[#55198c] hover:border-[1px]`}>Download MY Resume</a> </div> 
          
     </>

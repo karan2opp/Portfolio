@@ -16,7 +16,7 @@ const ContactMe = ({ Mode }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Replace these with your EmailJS credentials
+    
     const serviceId = 'service_kvo9qtx';
     const templateId = 'template_qd3jdvw';
     const publicKey = 'a3CMlFTO1ZvT8Ckx2';
@@ -127,7 +127,11 @@ const ContactMe = ({ Mode }) => {
         {/* Placeholder for profile picture */}
         <div className="flex justify-center mb-8">
           <div className="w-40 h-40 rounded-full bg-gray-500 border-4 border-purple-500 flex items-center justify-center">
-            <span className="text-white text-sm">Profile Picture</span>
+          <img
+    src="/pic.png"
+      alt="Profile"
+    className="w-40 h-40 rounded-full border-4 border-purple-500 object-cover"
+  />
           </div>
         </div>
         <footer className="text-sm">
