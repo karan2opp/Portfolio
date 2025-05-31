@@ -50,7 +50,7 @@ const ContactMe = ({ Mode }) => {
        
        
 
-        {/* Message Form */}
+        
         <div className="mb-8 w-full mt-5 max-w-md mx-auto">
           <div
             className={`p-6 rounded-lg shadow-lg ${

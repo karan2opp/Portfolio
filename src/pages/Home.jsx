@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from '../components/Navbar';
-import Hero from '../components/Hero';
+import Hero from './Hero';
 import Skill from './Skill';
 import Education from './Education';
 import Projects from './Projects';
