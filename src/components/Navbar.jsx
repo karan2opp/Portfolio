@@ -41,7 +41,7 @@ const Navbar = ({ Mode, setMode }) => {
       } ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}
     >
       <div className="col-span-1 p-5">
-        <h1 className="font text-xl sm:text-2xl">Karan Kumar</h1>
+        <h1 className="text-teal-400  font-Transcity text-xl sm:text-3xl">Karan Kumar</h1>
       </div>
 
       <div className="col-span-1 flex items-center relative md:hidden">

@@ -19,7 +19,7 @@ const Hero = ({Mode}) => {
   return (<>
     <div id="Hero" className='grid grid-cols-1 md:grid-cols-2 mt-20 '>
       <div className='col-span-1 flex flex-col gap-10 ml-10 '>
-           <h1 className='  text-2xl sm:text-3xl lg:text-5xl  '>Hii all, I'm Karan
+           <h1 className='  text-2xl sm:text-3xl lg:text-5xl font-serif  '>Hii, I'm Karan
              <style>
         {`
           .wave {

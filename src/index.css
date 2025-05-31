@@ -1,1 +1,40 @@
+@font-face {
+    font-family:Oleo ;
+    src: url("../src/assets/fonts/OleoScript-Regular.ttf");
+}
+@font-face {
+    font-family:Hanging ;
+    src: url("../src/assets/fonts/Hanged\ Letters.ttf");
+}
+@font-face {
+    font-family:Borisna ;
+    src: url("../src/assets/fonts/Borisna.ttf");
+}
 @import "tailwindcss";
+@font-face {
+    font-family:Script ;
+    src: url("../src/assets/fonts/DaisybudScript_PERSONAL_USE_ONLY.otf");
+}
+@font-face {
+    font-family:Transcity ;
+    src: url("../src/assets/fonts/Transcity\ DEMO.otf");
+}
+@font-face {
+    font-family:Cinzel ;
+    src: url("../src/assets/fonts/Cinzel-Regular.ttf");
+}
+@theme{
+    --font-oleo:Oleo,"sans-serif";
+}
+@theme{
+    --font-Script:script,"sans-serif";
+}
+@theme{
+    --font-hanged:Hanged,"sans-serif";
+}@theme{
+    --font-Borisna:borisna,"sans-serif";
+}@theme{
+    --font-Transcity:transcity,"sans-serif";
+}@theme{
+    --font-Cinzel:cinzel,"sans-serif";
+}

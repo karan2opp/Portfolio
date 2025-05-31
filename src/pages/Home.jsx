@@ -17,7 +17,7 @@ const Home = () => {
   }, [lightMode]);
     
   return (
-    <div className={`  ${lightMode ? "bg-white text-gray-800" : "bg-[#171c28] text-white"}  overflow-x-hidden`}>
+    <div className={`   ${lightMode ? "bg-white text-gray-800" : "bg-[#171c28] text-white"}  overflow-x-hidden`}>
         <Navbar Mode={lightMode} setMode={setLightMode} />
          <Hero Mode={lightMode}   />
          <Skill/>
